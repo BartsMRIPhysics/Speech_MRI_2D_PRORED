@@ -36,6 +36,7 @@ CUDA_VISIBLE_DEVICES=0 python test_ACDC.py
 
 ## Reproducing the result
 
+### Speech
 To test the dataset with trained model:
 1. Create a new folder with name 'model_pth' to Speech_MRI_2D_PRORED. 
 2. Download the trained model from  [Google Drive](https://drive.google.com/file/d/1y7rvY2ZcMsrV7Sg7D7WozxxZRo5-BPV8/view?usp=sharing). 
