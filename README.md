@@ -3,20 +3,36 @@
 ## Data
 
 * Speech MRI Data - The data is available at [Zenodo](https://zenodo.org/records/10046815). The processed dataset in .npy form can be downloaded from [Google Drive](https://drive.google.com/file/d/1wT64P9YtIot7PrxMrnJRkXJ8T5sBSiWS/view?usp=sharing). Save the downloaded files to the 'Speech_MRI_2D_PRORED' folder path.
+* ACDC - The data is available from [MICCAI2017 challenge](https://www.creatis.insa-lyon.fr/Challenge/acdc/miccai_results.html), or you can download the processed dataset from Google Drive of [MT-UNet](https://drive.google.com/file/d/13qYHNIWTIBzwyFgScORL2RFd002vrPF2/view). Save the downloaded files to the 'Speech_MRI_2D_PRORED' folder path.
 
 ## Training
 ```
 cd into Speech_MRI_2D_PRORED
 ```
 
-For Speech MRI, run ``` CUDA_VISIBLE_DEVICES=0 python speech_train.py ```
+For Speech MRI, run 
+```
+CUDA_VISIBLE_DEVICES=0 python train_speech.py 
+```
+
+For ACDC, run
+```
+CUDA_VISIBLE_DEVICES=0 python train_ACDC.py 
+```
 
 ## Testing
 ```
 cd into Speech_MRI_2D_PRORED
 ```
 
-For Speech MRI, run ``` CUDA_VISIBLE_DEVICES=0 python test_speech.py ```
+For Speech MRI, run 
+``` 
+CUDA_VISIBLE_DEVICES=0 python test_speech.py
+```
+For ACDC, run
+```
+CUDA_VISIBLE_DEVICES=0 python test_ACDC.py
+```
 
 ## Reproducing the result
 
