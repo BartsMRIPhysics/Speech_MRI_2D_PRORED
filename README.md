@@ -25,7 +25,7 @@ CUDA_VISIBLE_DEVICES=0 python train_ACDC.py
 cd into Speech_MRI_2D_PRORED
 ```
 
-For Speech MRI, run 
+For Speech MRI, please run the training code to get the split of the test data for each fold. Then run: 
 ``` 
 CUDA_VISIBLE_DEVICES=0 python test_speech.py
 ```
