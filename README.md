@@ -46,7 +46,7 @@ To test the dataset with trained model for :
 
 ### ACDC
 1. Create a new folder with name 'model_pth' to Speech_MRI_2D_PRORED.
-2. Download the trained model from [Google Drive](https://drive.google.com/file/d/1MwvdKWszt2CQIuPd4CgHaRyVYumj_PU5/view?usp=sharing).
+2. Download the trained model from [Google Drive](https://drive.google.com/file/d/1z_MZuVHQtG6Jmy4_8la0b-Th3eoqBBx0/view?usp=sharing).
 3. Unzip the downloaded folder and put the trained model for ACDC in the folder './model_pth'.
 4. ```cd into Speech_MRI_2D_PRORED```
 5. ```CUDA_VISIBLE_DEVICES=0 python test_ACDC.py```
