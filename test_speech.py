@@ -45,7 +45,7 @@ def inference(model, test, display):
         for i in range(k_folds):
             test_vol=tes[i]
             if test:
-                model.load_state_dict(torch.load(f'./model_pth/best_metric_model_{i}.pth', map_location=torch.device('cpu')))  
+                model.load_state_dict(torch.load(f'./model_pth/saved_model/best_metric_model_{i}.pth', map_location=torch.device('cpu')))  
                 model.to(device)
            
             model.eval()
