@@ -20,4 +20,6 @@ For Speech MRI, run ``` CUDA_VISIBLE_DEVICES=0 python test_speech.py ```
 
 ##Reproducing the result
 ```
-*The trained model can be downloaded from [Google Drive][https://drive.google.com/file/d/1y7rvY2ZcMsrV7Sg7D7WozxxZRo5-BPV8/view?usp=sharing]. Unzip the models and put the trained models in the folder './model_pth'.
+*The trained model can be downloaded from [Google Drive][https://drive.google.com/file/d/1y7rvY2ZcMsrV7Sg7D7WozxxZRo5-BPV8/view?usp=sharing].//
+Create a new folder with name 'model_pth' to Speech_MRI_2D_PRORED. Unzip the models and put the trained models in the folder './model_pth'.
+```
