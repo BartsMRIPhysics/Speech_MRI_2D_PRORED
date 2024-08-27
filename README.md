@@ -27,6 +27,8 @@ To test the dataset with trained model:
 4. Run
 ```
 cd into Speech_MRI_2D_PRORED
-``` and then
+``` \
+and then
+
 ``` CUDA_VISIBLE_DEVICES=0 python test_speech.py ``` 
 
