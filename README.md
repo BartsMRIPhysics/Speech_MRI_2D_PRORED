@@ -35,12 +35,18 @@ CUDA_VISIBLE_DEVICES=0 python test_ACDC.py
 ```
 
 ## Reproducing the result
+To test the dataset with trained model for :
 
 ### Speech
-To test the dataset with trained model:
 1. Create a new folder with name 'model_pth' to Speech_MRI_2D_PRORED. 
 2. Download the trained model from  [Google Drive](https://drive.google.com/file/d/1y7rvY2ZcMsrV7Sg7D7WozxxZRo5-BPV8/view?usp=sharing). 
 3. Unzip the downloaded folder and put the trained models in the folder './model_pth'. An example path to the saved models will be '.../Speech_MRI_2D_PRORED/model_pth/best_metric_model_0.pth'.
 5. ```cd into Speech_MRI_2D_PRORED``` 
-6.  ``` CUDA_VISIBLE_DEVICES=0 python test_speech.py ``` 
+6. ``` CUDA_VISIBLE_DEVICES=0 python test_speech.py ``` 
 
+### ACDC
+1. Create a new folder with name 'model_pth' to Speech_MRI_2D_PRORED.
+2. Download the trained model from [Google Drive](https://drive.google.com/file/d/1MwvdKWszt2CQIuPd4CgHaRyVYumj_PU5/view?usp=sharing).
+3. Unzip the downloaded folder and put the trained model for ACDC in the folder './model_pth'.
+4. ``` cd into Speech_MRI_2D_PRORED```
+5. ``` CUDA_VISIBLE_DEVICES=0 python test_ACDC.py ```
