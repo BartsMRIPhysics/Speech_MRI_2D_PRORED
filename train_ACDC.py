@@ -68,7 +68,7 @@ torch.cuda.manual_seed(args.seed)
 
 args.is_pretrain = True
 args.exp = 'Pre trained vit with new ref before sup_Small_loss_MUTATION_w3_7_' + str(args.img_size)
-snapshot_path = "{}/{}/{}".format(args.save_path, args.exp, 'MERIT_Cascaded_Small_loss_MUTATION_w3_7')
+snapshot_path = "{}/{}/{}".format(args.save_path, args.exp, 'PRORED_Small_loss_MUTATION_w3_7')
 snapshot_path = snapshot_path + '_pretrain' if args.is_pretrain else snapshot_path
 snapshot_path = snapshot_path + '_epo' +str(args.max_epochs) if args.max_epochs != 30 else snapshot_path
 snapshot_path = snapshot_path+'_bs'+str(args.batch_size)
